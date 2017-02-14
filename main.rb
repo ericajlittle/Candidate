@@ -12,6 +12,8 @@ require './filters'
 # pp @candidates
 
 
-pp qualified_candidates(@candidates)
+# pp qualified_candidates(@candidates)
 
 # pp experienced?(@candidates[0])
+
+pp ordered_by_qualifications(@candidates)

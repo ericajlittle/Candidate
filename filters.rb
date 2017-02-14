@@ -47,4 +47,11 @@ def age?(candidate)
   candidate[:age] > 17
 end
 
+def ordered_by_qualifications(candidates)
+  candidates.sort_by do
+    |item|
+    [item[:years_of_experience], item[:github_points]]
+  end.reverse
+end
+
 
