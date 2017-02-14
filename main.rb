@@ -9,4 +9,9 @@ require './filters'
 
 # binding.pry
 
-pp @candidates
+# pp @candidates
+
+
+pp qualified_candidates(@candidates)
+
+# pp experienced?(@candidates[0])
